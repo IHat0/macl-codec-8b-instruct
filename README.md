@@ -19,6 +19,7 @@ Because of file size limitations, the raw model weights are hosted on Hugging Fa
 * **Implements a multi-layered fallback ladder (L0-L4) that decouples time-sensitive survival reflexes from LLM reasoning, ensuring sub-10ms response times to environmental threats.**
 * **Utilizes asynchronous sleep consolidation to convert verbose episodic experience into structured semantic facts, maintaining a flat active context window regardless of operational horizon.**
 
+Current Performance Target: Optimized for ~17.8 envelopes/sec with ~0.01ms interrupt wipe latency (Tested on Llama-3.1-8B-Q4).
 ---
 
 ## 📋 Quickstart / Local Inference
@@ -27,3 +28,4 @@ To run this model locally using tools like `llama.cpp` or `Ollama`:
 ```bash
 # Example command if using llama.cpp
 llama-cli -m Meta-Llama-3.1-8B-Instruct.Q4_K_M.gguf -p "Your prompt here"
+
