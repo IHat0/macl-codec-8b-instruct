@@ -16,6 +16,8 @@ Because of file size limitations, the raw model weights are hosted on Hugging Fa
 * **Neuro-Symbolic Control:** Bridges the gap between neural network processing and strict symbolic logic frameworks.
 * **Environmental State Compilation:** Translates streaming state data into actionable MAC-L syntax.
 * **Low-Latency Performance:** Optimized for sub-50ms local inference loops.
+* **Implements a multi-layered fallback ladder (L0-L4) that decouples time-sensitive survival reflexes from LLM reasoning, ensuring sub-10ms response times to environmental threats.
+* **Utilizes asynchronous sleep consolidation to convert verbose episodic experience into structured semantic facts, maintaining a flat active context window regardless of operational horizon.
 
 ---
 
