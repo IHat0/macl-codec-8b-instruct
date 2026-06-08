@@ -8,7 +8,7 @@ A highly optimized, quantized Llama-3.1 model fine-tuned to act as a real-time n
 The model is quantized to **Q4_K_M** GGUF format, making it highly efficient for local inference on consumer hardware. 
 
 Because of file size limitations, the raw model weights are hosted on Hugging Face:
-👉 **[Download macl-codec-8b-instruct on Hugging Face](PASTE_YOUR_HF_LINK_HERE)**
+👉 **[Download macl-codec-8b-instruct on Hugging Face](https://huggingface.co/Mohato/macl-codec-8b-instruct/tree/main)**
 
 ---
 
