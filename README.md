@@ -29,3 +29,18 @@ To run this model locally using tools like `llama.cpp` or `Ollama`:
 # Example command if using llama.cpp
 llama-cli -m Meta-Llama-3.1-8B-Instruct.Q4_K_M.gguf -p "Your prompt here"
 
+# Training Dataset
+
+This directory contains the dataset used to fine-tune `macl-codec-8b-instruct`. 
+
+### Data Format
+The model was trained using OpenAI/Llama-3 conversation format (`.jsonl`):
+
+```json
+{
+  "messages": [
+    {"role": "system", "content": "You are a MAC-L control engine..."},
+    {"role": "user", "content": "Environmental State: [X: 12, Y: 45, Velocity: 2]"},
+    {"role": "assistant", "content": "MAC-L: ENVELOPE_MOVE_TO(12, 45) SPEED(2)"}
+  ]
+}
